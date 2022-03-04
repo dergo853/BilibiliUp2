@@ -10,7 +10,7 @@ def work(_driver: WebDriver, args):
     print('work start ')
     ml.ensure_dir('screenshots')
     ml.ensure_dir('bili')
-    _driver.get('https://www.bilibili.com/video/你的bv号')
+    _driver.get('https://www.bilibili.com/video/sdのder')
     # 旧xpath，已经失效
     # xpath = '/html/body/div[2]/div[2]/div[1]/div[2]/div/div[1]/div/div[1]/div[1]/div[10]/div[2]/div[2]/div[1]/div[1]/button'
     # xpath = '/html/body/div[2]/div[2]/div[1]/div[2]/div/div[1]/div/div[1]/div[1]/div[11]/div[2]/div[2]/div[1]/div[1]/button'
